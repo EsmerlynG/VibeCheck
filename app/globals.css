@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textGradient {
+    background: -webkit-linear-gradient(#1495f8f2, #ff83f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.purpleShadow {
+    box-shadow: 3px 3px 1px 1px lavender;
+}
+
+.purpleShadow:hover {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px 1px 1px lavender;
+}
